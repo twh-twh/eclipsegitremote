@@ -11,7 +11,7 @@ import org.student.entity.Student;
 
 //数据访问层：原子性的增删改查
 public class StudentDao {
-	//123456
+	//123456789
 	public boolean isExist(int sno) {
 		return !(queryStudentBySno(sno) == null);
 	}
