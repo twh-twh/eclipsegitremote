@@ -9,9 +9,9 @@ import java.sql.SQLException;
 import org.student.entity.Student;
 
 
-//数据访问层：原子性的增删改查
+//鏁版嵁璁块棶灞傦細鍘熷瓙鎬х殑澧炲垹鏀规煡
 public class StudentDao {
-	
+	//123
 	public boolean isExist(int sno) {
 		return !(queryStudentBySno(sno) == null);
 	}
